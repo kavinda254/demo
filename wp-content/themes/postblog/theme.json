@@ -1,0 +1,183 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+	"version": 2,
+	"settings": {
+		"layout": {
+			"contentSize": "1280px",
+			"wideSize": "1280px"
+		},
+		"color": {
+			"link": true,
+			"palette": [
+				{
+					"slug": "postblog-primary",
+					"color": "#6104ff",
+					"name": "Primary"
+				},
+				{
+					"slug": "postblog-white-primary",
+					"color": "#FFF",
+					"name": "White"
+				},
+				{
+					"slug": "postblog-secondary",
+					"color": "#29294b",
+					"name": "Secondary"
+				},
+				{
+					"slug": "postblog-text",
+					"color": "#555555",
+					"name": "Text"
+				},
+				{
+					"slug": "postblog-dark-text",
+					"color": "#D0D0D0",
+					"name": "Dark Text"
+				},
+				{
+					"slug": "postblog-background",
+					"color": "#f9f8ff",
+					"name": "Background"
+				},
+				{
+					"slug": "postblog-dark-background-one",
+					"color": "#0B0C10",
+					"name": "Dark Background One"
+				},
+				{
+					"slug": "postblog-dark-background-two",
+					"color": "#000",
+					"name": "Dark Background Two"
+				},
+				{
+					"slug": "postblog-dark-box-color",
+					"color": "#121212",
+					"name": "Dark Box Color"
+				}
+			]
+		},
+		"typography": {
+			"lineHeight": true,
+			"customFontSize": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "'Plus Jakarta Sans'",
+					"name": "Plus Jakarta Sans",
+					"slug": "primary"
+				},
+				{
+					"fontFamily": "'Be Vietnam Pro'",
+					"name": "Be Vietnam Pro",
+					"slug": "Bevietnampro"
+				},
+				{
+					"fontFamily": "'Lexend Deca'",
+					"name": "Lexend Deca",
+					"slug": "Text"
+				},
+				{
+					"fontFamily": "'Poppins'",
+					"name": "Poppins",
+					"slug": "Poppins"
+				},
+				{
+					"fontFamily": "'Roboto'",
+					"name": "Roboto",
+					"slug": "Roboto"
+				},
+				{
+					"fontFamily": "'Inter'",
+					"name": "Inter",
+					"slug": "Inter"
+				},
+				{
+					"fontFamily": "'Jost'",
+					"name": "Jost",
+					"slug": "Jost"
+				}
+			],
+			"fontSizes": [
+				{
+					"slug": "tiny",
+					"size": "16px",
+					"name": "Tiny"
+				},
+				{
+					"slug": "small",
+					"size": "18px",
+					"name": "Small"
+				},
+				{
+					"slug": "normal",
+					"size": "25px",
+					"name": "Normal"
+				},
+				{
+					"slug": "large",
+					"size": "50px",
+					"name": "Large"
+				},
+				{
+					"slug": "extra-large",
+					"size": "70px",
+					"name": "Extra Large"
+				},
+				{
+                    "slug": "heading-1",
+                    "size": "clamp(42px, 5.2778vw, 70px)",
+                    "name": "Heading 1"
+                },
+                {
+                    "slug": "heading-2",
+                    "size": "clamp(28px, 3.334vw, 50px)",
+                    "name": "Heading 2"
+                },
+                {
+                    "slug": "heading-3",
+                    "size": "clamp(22px, 1.667vw, 24px)",
+                    "name": "Heading 3"
+                },
+                {
+                    "slug": "heading-4",
+                    "size": "clamp(20px, 1.528vw, 22px)",
+                    "name": "Heading 4"
+                },
+                {
+                    "slug": "heading-5",
+                    "size": "clamp(18px, 1.389vw, 20px)",
+                    "name": "Heading 5"
+                },
+                {
+                    "slug": "heading-6",
+                    "size": "clamp(14px, 1.112vw, 16px)",
+                    "name": "Heading 6"
+                }
+			]
+		},
+		"spacing": {
+			"padding": true,
+			"margin": true,
+			"blockGap": true,
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"border": {
+			"color": true,
+			"radius": true,
+			"style": true,
+			"width": true
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "#f0f1f5",
+			"text": "#666666"
+		},
+		"blocks": {}
+	}
+}
